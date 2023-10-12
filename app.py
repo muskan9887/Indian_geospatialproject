@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 import plotly.express as px
 
-df = pd.read_csv('C:\\Users\\KIIT\\Desktop\\Indian_geospatialproject\\india .csv')
+df = pd.read_csv('india .csv')
 
 st.set_page_config(layout='wide')
 list_of_states = list(df['State'].unique())
